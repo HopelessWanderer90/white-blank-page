@@ -1,4 +1,4 @@
-# random password generator (16 digit HEX)
+# random password generator (16 digit password)
 
 # import the 'random' module
 
@@ -37,5 +37,5 @@ num_13 = str(r_num7); num_14 = str(r_let7); num_15 = str(r_num8); num_16 = str(r
 # variables added together
 passwd = num_1+num_2+num_3+num_4+num_5+num_6+num_7+num_8+num_9+num_10+num_11+num_12+num_13+num_14+num_15+num_16
 
-print('Here is your 16 digit HEX password: ' + passwd)
+print('Here is your 16 digit password: ' + passwd)
 print('Just copy and paste this into where you see fit, e.g. BitWarden')
